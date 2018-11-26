@@ -25,7 +25,7 @@ var express = require('express')
    , config = require('config')
    , session = require('express-session')
    , mongoose = require('mongoose');
-
+//this is comment
 mongoose.connect(config.server.database);
 
 var app = express();
